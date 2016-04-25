@@ -1,2 +1,6 @@
 # recipes
-recipes of c++
+recipes of c++.
+
+# source
+Thanks for Chenshuo's repo.
+
