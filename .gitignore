@@ -1,0 +1,5 @@
+#ignore the common files that not related to the git repo.
+*.o
+*.swp
+*.out
+core
