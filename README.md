@@ -1,7 +1,7 @@
-# recipes
-recipes of c++.
+# Subjects
+Subjects of c++.
 
 # source
-Reference for Chenshuo's recipes.
+Inspired by Chenshuo's recipres.
 Thanks for Chenshuo.
 
