@@ -5,5 +5,4 @@ Subjects of c++ coding module.
 Inspired by Chenshuo's recipres.
 Thanks for Chenshuo.
 
-#update history
 
