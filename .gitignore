@@ -3,3 +3,18 @@
 *.swp
 *.out
 core
+
+#ignore files.
+*.o
+*.sdf
+*.obj
+*.tlog
+*.log
+*.opensdf
+*.suo
+*.opendb
+
+#ignore folder.
+Debug
+Release
+

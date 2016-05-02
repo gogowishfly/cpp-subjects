@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Observer">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="ObserverInterface">
+      <UniqueIdentifier>{f841ba54-af25-45db-af9c-18231dfc21c7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Observer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Subject.cpp">
+      <Filter>Observer</Filter>
+    </ClCompile>
+    <ClCompile Include="ClockTimer.cpp">
+      <Filter>Observer</Filter>
+    </ClCompile>
+    <ClCompile Include="DigitalClock.cpp">
+      <Filter>Observer</Filter>
+    </ClCompile>
+    <ClCompile Include="AnalogClock.cpp">
+      <Filter>Observer</Filter>
+    </ClCompile>
+    <ClCompile Include="SubjectInterface.cpp">
+      <Filter>ObserverInterface</Filter>
+    </ClCompile>
+    <ClCompile Include="MyObserver.cpp">
+      <Filter>ObserverInterface</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Oberver.h">
+      <Filter>Observer</Filter>
+    </ClInclude>
+    <ClInclude Include="Subject.h">
+      <Filter>Observer</Filter>
+    </ClInclude>
+    <ClInclude Include="ClockTimer.h">
+      <Filter>Observer</Filter>
+    </ClInclude>
+    <ClInclude Include="DigitalClock.h">
+      <Filter>Observer</Filter>
+    </ClInclude>
+    <ClInclude Include="AnalogClock.h">
+      <Filter>Observer</Filter>
+    </ClInclude>
+    <ClInclude Include="ObserverInterface.h">
+      <Filter>ObserverInterface</Filter>
+    </ClInclude>
+    <ClInclude Include="SubjectInterface.h">
+      <Filter>ObserverInterface</Filter>
+    </ClInclude>
+    <ClInclude Include="MySubject .h">
+      <Filter>ObserverInterface</Filter>
+    </ClInclude>
+    <ClInclude Include="MyObserver.h">
+      <Filter>ObserverInterface</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,65 @@
+#Readme
+The samples in headfirst project is too complicated.
+So I did some changes to make the logic simple but keep the Observer pattern.
+
+#Singleton
+http://www.bogotobogo.com/DesignPatterns/singleton.php
+
+http://stackoverflow.com/questions/1008019/c-singleton-design-pattern
+
+#Observer
+http://www.patterns.pl/
+http://www.bogotobogo.com/DesignPatterns/observer.php
+
+#Factory
+http://www.bogotobogo.com/DesignPatterns/abstractfactorymethod.php
+
+
+#Prototype
+http://www.bogotobogo.com/DesignPatterns/prototype.php
+
+
+#Builder
+https://sourcemaking.com/design_patterns/builder/cpp/1
+Discussion betweem Builder and Factory:http://stackoverflow.com/questions/757743/what-is-the-difference-between-builder-design-pattern-and-factory-design-pattern
+
+This is exactly the difference. The Builder is only needed when an object cannot be produced in one step. One great an example of this would be in the de-serialization process for a complex object. Often times the parameters for the complex object must be retrieved one by one
+
+Implementation:http://www.sourcetricks.com/2013/04/builder-pattern.html#.Vuj94OJ95hE
+
+#Command 
+http://www.bogotobogo.com/DesignPatterns/command.php
+
+
+#Chain of Responsibility
+http://www.bogotobogo.com/DesignPatterns/chain_of_responsibility.php
+
+
+#Strategy
+http://www.bogotobogo.com/DesignPatterns/strategy.php
+(pick up or switch function)
+
+
+#Brigge
+http://www.bogotobogo.com/DesignPatterns/bridge.php
+
+
+#Composite
+http://www.bogotobogo.com/DesignPatterns/composite.php
+
+
+#Decorator 
+http://www.bogotobogo.com/DesignPatterns/decorator.php
+
+
+
+#Proxy
+http://www.bogotobogo.com/DesignPatterns/proxy.php
+
+
+
+#Façade
+http://www.bogotobogo.com/DesignPatterns/facade.php
+
+#End
+End of this series.
